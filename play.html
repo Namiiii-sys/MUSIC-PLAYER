@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PLAY</title>
+</head>
+<body>
+    <header>
+        <h1>NimmiMuzik</h1>
+        <ul>
+            <li>Home</li>
+            <li>Play</li>
+            <li>Contact us</li>
+            <li>About us</li>
+        </ul>
+    </header>
+    <main>
+        <div class="sections">
+            <div class="box1">
+                <div class="search">
+                    <input type="text">
+                   <button onclick="">Search</button>
+                </div>
+                <div class="list" id="list">
+                    
+                </div>
+            </div>
+            <div class="box2">
+                <img class="circleImg" src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg" alt="">
+                <div style="width: 60%;">
+                    <input value="0" type="range" id="range"  />
+                    <h6 id="endTime"></h6>
+                </div>
+                
+                <div>
+                    <h4 id="title">whateva</h4>
+                </div>
+                <div class="three">
+                    <button id="startOver" class="icon">
+                        <img src="backward.svg" alt="">
+                    </button>
+                    <button class="icon" id="playPause"><img src="next.svg" alt=""></button>
+                    <button class="icon" id="nextOver"><img src="forward.svg" alt=""></button>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2>Let's connect!</h2>
+        <div>
+            <img src="icons8-twitter.svg" alt="">
+            <img src="icons8-facebook.svg" alt="">
+            <img src="icons8-instagram.svg" alt="">
+        </div>
+    </footer>
+    <audio id="audio" style="display: hidden;">
+    <script src="app.js" ></script>
+</body>
+</html>
